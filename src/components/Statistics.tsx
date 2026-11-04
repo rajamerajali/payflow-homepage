@@ -52,14 +52,17 @@ function Statistics() {
             PAYFLOW IN NUMBERS
           </Typography>
 
-          <Typography
-            variant="h3"
-            fontWeight="bold"
-            color="white"
-            sx={{ mt: 1, fontSize: { xs: '2rem', md: '3rem' } }}
-          >
-            Built for Better Business
-          </Typography>
+         <Typography
+  variant="h3"
+  color="white"
+  sx={{
+    mt: 2,
+    fontSize: { xs: '2rem', md: '3rem' },
+    fontWeight: 'bold',
+  }}
+>
+  Built for Better Business
+</Typography>
         </Box>
 
         <Box
@@ -85,13 +88,13 @@ function Statistics() {
                 {stat.icon}
               </Box>
 
-              <Typography
-                variant="h3"
-                fontWeight="bold"
-                color="white"
-              >
-                {stat.value}
-              </Typography>
+             <Typography
+  variant="h3"
+  color="white"
+  sx={{ fontWeight: 'bold' }}
+>
+  {stat.value}
+</Typography>
 
               <Typography
                 color="#cbd5e1"
