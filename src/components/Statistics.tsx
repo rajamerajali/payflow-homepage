@@ -2,8 +2,7 @@
 import {
   Box,
   Container,
-  Typography,
-  Stack
+  Typography
 } from '@mui/material';
 
 import TrendingUpIcon from '@mui/icons-material/TrendingUp';
